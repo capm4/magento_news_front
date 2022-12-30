@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "dev:host": "nuxt --hostname '0' --port 8000"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0"
+  }
+}
